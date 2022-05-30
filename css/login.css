@@ -1,0 +1,26 @@
+#textbox{
+    border-radius: 5px;
+    color: olive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#loginform{
+    box-shadow: 5px 8px #888888;
+}
+
+#btn{
+    border-radius: 2px;
+    box-shadow: 1px 3px;
+}
+
+#btn :hover{
+    color: blue;
+}
+
+#noidung{
+    color: navy;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

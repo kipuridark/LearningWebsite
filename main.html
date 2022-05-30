@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/bar.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <img id="logo_img" src="images/logo_nc.jpg" alt="">
+                <div class="logo_name">
+                    UiTiOt
+                </div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                <a href="home.html">
+                    <i class='bx bxs-home'></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="main.html">
+                    <i class='bx bx-slider'></i>
+                    <span class="links_name">Main</span>
+                </a>
+            </li>
+            <li>
+                <a href="chart.html">
+                    <i class='bx bx-line-chart'></i>
+                    <span class="links_name">Charts</span>
+                </a>
+            </li>
+            <li>
+                <a href="log.html">
+                    <i class='bx bxs-file-find'></i>
+                    <span class="links_name">Logs</span>
+                </a>
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <img src="images/avatar.jpg" alt="">
+                    <div class="name">
+                        Chào Thanh Trung
+                    </div>
+                    <a href="Dangnhap.html"><i class='bx bx-log-out' id="log_out"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_content">
+        <div class="top">
+            <h3>MAIN</h3>
+        </div>
+        <div class="container">
+            <div class="ctrl_box">
+                <div class="title_box">
+                    Điều khiển thiết bị
+                </div>
+                <div class="main_ctrl">
+                    <div id="temp">
+                        Nhiệt độ <br>
+                        31<sup>o</sup>C
+                        <i class='bx bxs-thermometer'></i>
+                    </div>
+                    <div id="humi">
+                        Độ ẩm <br>
+                        50%
+                        <i class='bx bx-droplet'></i>
+                    </div>
+                    <div id="lux">
+                        Ánh sáng <br>
+                        350 lux
+                        <i class='bx bx-brightness'></i>
+                    </div>
+        
+                    <div class="switch_box">
+                        Các thiết bị <br> <br>
+                        <div class="toggle">
+                            Đèn 1 
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                              </label>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Đèn 2
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                              </label>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
